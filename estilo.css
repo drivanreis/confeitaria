@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
+
+*{
+    margin: 0px;
+}
+
+:root{
+    --corchoc: #5E352F;
+    --cor1: #9FA2FF;
+    --cor2: #7075EB;
+    --cor3: #0F15D1;
+    --cor4: #0B109E;
+    --cor5: #060957;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    /* --fonte-android: "Android", cursive; */
+}
+
+
+
+img#fundo{
+    width: 100%;
+    position:absolute;
+}
+
+div#fundo{
+    position:fixed;
+    top: 10px;
+    left: 10px;
+    width: 200px;
+    height: 110px;
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: var(--corchoc);
+    color: white;
+}    
+
+p{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h1{
+    font-size: 1.1em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
